@@ -14,3 +14,17 @@
     justify-content: center;
     text-align: center;
   }
+
+  .intro-name {
+    font-family: Reem Kufi,sans-serif;
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 6rem;
+    padding-bottom: 1rem;
+}
+
+.tagline {
+  font-size: 3rem;
+  margin: 3rem 0;
+  font-weight: 300;
+}
