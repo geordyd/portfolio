@@ -15,7 +15,7 @@ export class LandingPage extends Component {
               <Col>
                 <Image src='https://via.placeholder.com/150' circle/>
               </Col>
-              <div class="intro-name">Hello, I'm Geordy!</div>
+              <div class="intro-name">Hello, I'm Geordy!!!</div>
               <div class="tagline">Student Software Engineering</div>
               
             </div>
