@@ -1,5 +1,5 @@
 {
-  "name": "portfolionode",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "homepage": "http://geordyd.github.io/portfolio",
@@ -32,6 +32,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.0.1",
+    "webpack": "^4.28.1"
   }
 }
