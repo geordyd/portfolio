@@ -1,5 +1,6 @@
 ﻿.flex-container {
     display: flex;
+    align-items: left;
     justify-content: center;
     min-height: 100vh;
   }

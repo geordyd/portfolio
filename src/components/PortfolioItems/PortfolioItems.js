@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './PortfolioItems.css';
 import { Element } from 'react-scroll';
+import { PortfolioBlock } from '../PortfolioBlock/PortfolioBlock';
+import { ListGroup, ListGroupItem } from 'react-bootstrap';
 
 
 export class PortfolioItems extends Component {
@@ -12,12 +14,26 @@ export class PortfolioItems extends Component {
         <Element name="PortfolioItems" className="element">
           <div className="flex-container">
             <div>
-              <h1>Portfolio Items</h1>
+<ListGroup>
+<ListGroupItem>
 
-              <p>This is test text boi</p>
+            <PortfolioBlock 
+                name={"Item 1"} 
+                description={"This is a short description of item 1"} 
+                link={"Link"}
+                />
+</ListGroupItem>
+<ListGroupItem>
 
-              <p>This is test text boi</p>
+                <PortfolioBlock 
+                name={"Item 2"} 
+                description={"This is a short description of item 2"} 
+                link={"Link"}
+                />
+</ListGroupItem>
+</ListGroup>
 
+  
             </div>
           </div>
         </Element>
