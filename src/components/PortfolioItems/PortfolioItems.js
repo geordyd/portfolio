@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import './PortfolioItems.css';
 import { Element } from 'react-scroll';
-import { PortfolioBlock } from '../PortfolioBlock/PortfolioBlock';
-import { ListGroup, ListGroupItem } from 'react-bootstrap';
-
+import { Grid, Row } from 'react-bootstrap';
+import PortfolioItem from '../PortfolioItem/PortfolioItem';
+//image import
+import image from'./images/Naamloos.png';
+import image2 from'./images/img2.png';
 
 export class PortfolioItems extends Component {
   displayName = PortfolioItems.name
@@ -14,26 +16,17 @@ export class PortfolioItems extends Component {
         <Element name="PortfolioItems" className="element">
           <div className="flex-container">
             <div>
-<ListGroup>
-<ListGroupItem>
-
-            <PortfolioBlock 
-                name={"Item 1"} 
-                description={"This is a short description of item 1"} 
-                link={"Link"}
-                />
-</ListGroupItem>
-<ListGroupItem>
-
-                <PortfolioBlock 
-                name={"Item 2"} 
-                description={"This is a short description of item 2"} 
-                link={"Link"}
-                />
-</ListGroupItem>
-</ListGroup>
-
-  
+              <Grid>
+                <Row>
+                  <PortfolioItem src={image} description="This is a sample project"/>
+                  <PortfolioItem src={image2} description="This is a sample project"/>
+                  <PortfolioItem src={image} description="This is a sample project"/>
+                  <PortfolioItem src={image2} description="This is a sample project"/>
+                  <PortfolioItem src={image} description="This is a sample project"/>
+                  <PortfolioItem src={image2} description="This is a sample project"/>
+                  
+                </Row>
+              </Grid>
             </div>
           </div>
         </Element>

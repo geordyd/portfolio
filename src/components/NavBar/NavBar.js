@@ -40,7 +40,7 @@ export class NavBar extends Component {
       <Navbar inverse collapseOnSelect className="navbar-fixed-top">
         <Navbar.Header>
           <Navbar.Brand >
-            <a href="#brand" className="LandingPage" to="ScrollLandingPage" onClick={() => this.scrollToLandingPage()} >Home</a>
+            <a href="#" className="LandingPage" to="ScrollLandingPage" onClick={() => this.scrollToLandingPage()} >Home</a>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>

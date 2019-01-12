@@ -1,43 +1,31 @@
-﻿import React from 'react';
-import PropTypes from 'prop-types';
-import './PortfolioItem';
+import React, { Component } from 'react';
+import './PortfolioItem.css';
+import { Element } from 'react-scroll';
+import { Button, Col, Thumbnail, Row, Grid } from 'react-bootstrap';
 
-const PortfolioItem = (props, context) => {
-  const { theme: { colorPrimary, textAlternate } } = context;
 
-  if (props.render) return props.render;
-  else
+
+export default class PortfolioItem extends Component {
+  displayName = PortfolioItem.name
+
+  render() {
     return (
-      <div
-        className="portfolio-item"
-        style={{ backgroundColor: colorPrimary, color: textAlternate }}
-      >
-        <div className="portfolio-item__title">Badass</div>
+      
+      
 
-        <div className="portfolio-item__desc">
-          I do badass things and kickass everyday! I do badass things and
-          kickass everyday! I do badass things and kickass everyday!
-        </div>
-        <div className="portfolio-item__icon">
-          <i className="fab fa-js" />
-          <i className="fab fa-react" />
-          <i className="fab fa-html5" />
-        </div>
-        <div className="portfolio-item__links">
-          <a src="#">Code</a>
-          <a src="#">Blog</a>
-        </div>
-      </div>
+        <Col xs={6} md={4}>
+          <Thumbnail src={this.props.src} className="responsive">
+            <h3>{this.props.title}</h3>
+            <p>{this.props.description}</p>
+            <p>
+              <Button bsStyle="primary">Button</Button>
+              &nbsp;
+              <Button bsStyle="default">Button</Button>
+            </p>
+          </Thumbnail>
+        </Col>
+    
+      
     );
-};
-
-PortfolioItem.contextTypes = {
-  theme: PropTypes.any
-};
-
-export default PortfolioItem;
-
-
-
-// WEBPACK FOOTER //
-// ./src/components/PortfolioItem/PortfolioItem.js
+  }
+}
