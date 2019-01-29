@@ -13,7 +13,7 @@ export class LandingPage extends Component {
           <div className="flex-container">
             <div>
               <Col>
-                <Image src='https://via.placeholder.com/150' circle/>
+                <Image src='https://via.placeholder.com/150' roundedCircle/>
               </Col>
               <div class="intro-name">Hello, I'm Geordy!</div>
               <div class="tagline">Student Software Engineering</div>

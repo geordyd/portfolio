@@ -16,7 +16,7 @@ export class Layout extends Component {
         <Container fluid>
           <Row> 
             
-            {/* <NavBar /> */}
+            <NavBar />
             
             <LandingPage />
             
