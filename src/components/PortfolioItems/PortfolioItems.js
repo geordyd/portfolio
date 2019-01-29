@@ -6,7 +6,9 @@ import PortfolioItem from '../PortfolioItem/PortfolioItem';
 import { BrowserRouter as Router, Link, Route} from 'react-router-dom';
 import ProjectPage1 from '../ProjectPage1/ProjectPage1';
 import ProjectPage2 from '../ProjectPage1/ProjectPage2';
-
+//image import
+import image from'./images/Naamloos.png';
+import image2 from'./images/img2.png';
 
 
 export class PortfolioItems extends Component {
@@ -14,29 +16,22 @@ export class PortfolioItems extends Component {
   
   render() {
 
-    return (
-      
+    return (     
       <div>
         <Element name="PortfolioItems" className="element">
           <div className="flex-container">
             <div>
               <Grid>
-                <Row>
-                  
-
-                
-                <Route exact path='/' component={ProjectPage1} />
-      
-        
-                <Route exact path='/1/' component={ProjectPage2} />
-                
-                
-                  
-                  
+                <Row>    
+                  <div>
+                    <PortfolioItem src={image} title="Project 1" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."/>
+                    <PortfolioItem src={image2} title="Project 2" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."/>
+                    <PortfolioItem src={image} title="Project 3" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."/>
+                    <PortfolioItem src={image2} title="Project 4" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."/>
+                    <PortfolioItem src={image} title="project 5" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."/>
+                    <PortfolioItem src={image2} title="project 6" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."/>  
+                  </div>
                 </Row>
-                
-
-
               </Grid>
             </div>
           </div>
@@ -45,43 +40,3 @@ export class PortfolioItems extends Component {
     );
   }
 }
-
-// var counter = 0;
-// var pageValue = "";
-
-// function handleClick(e) {
-//   e.preventDefault();
-//   counter -= 1;
-//   if(counter < 0){
-//     counter = 0;
-//   }
-
-//   if (counter === 0){
-//    pageValue = "/"
-//   }else{
-//     pageValue = counter;
-//   }
-//   console.log(counter);
-// console.log(pageValue);
- 
-  
-// }
-
-// function handleClick2(e) {
-//   e.preventDefault();
-//   counter += 1;
-//   if (counter > 2){
-//     counter = 2;
-//   }
-
-//   if (counter === 0){
-//     pageValue = "/"
-//   }else{
-//     pageValue = counter;
-//   }
-//    console.log(counter);
-//    console.log(pageValue);
-   
-  
-
-// }

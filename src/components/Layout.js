@@ -12,22 +12,24 @@ export class Layout extends Component {
 
   render() {
     return (
-      <Grid fluid>
-        <Row> 
+      <div className="background">
+        <Grid fluid>
+          <Row> 
 
-          <NavBar />
-          
-          <LandingPage />
-          
-          <About />         
+            <NavBar />
+            
+            <LandingPage />
+            
+            <About />         
 
-          <PortfolioItems />
+            <PortfolioItems />
 
-          <Col sm={9}>
-            {this.props.children}
-          </Col>
-        </Row>
-      </Grid>
+            <Col sm={9}>
+              {this.props.children}
+            </Col>
+          </Row>
+        </Grid>
+      </div>
     );
   }
 }

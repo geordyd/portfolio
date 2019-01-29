@@ -14,5 +14,11 @@
   object-fit: contain;
 }
   
-
+.thumbnail{
+  background-color: #5c5f66;
+  border-color: #5c5f66;
+  /* background-image: url("/images/background3.png");
+  width: 100%;
+  height: 100%;   */
+}
 
