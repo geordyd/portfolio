@@ -1,14 +1,13 @@
 ﻿import React, { Component } from 'react';
-//import { Link } from 'react-router-dom';
-import { /*Glyphicon,*/ Nav, Navbar, NavItem, /*NavDropdown, MenuItem*/ } from 'react-bootstrap';
-//import { LinkContainer } from 'react-router-bootstrap';
+import { Nav, Navbar, NavItem } from 'react-bootstrap';
 import './NavBar.css';
-import { scroller, /*Events, animateScroll as scroll*/} from 'react-scroll';
+import { scroller } from 'react-scroll';
 
 
 
 
 export class NavBar extends Component {
+
   displayName = NavBar.name
 
   scrollToLandingPage() {

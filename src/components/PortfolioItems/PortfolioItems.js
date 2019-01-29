@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './PortfolioItems.css';
 import { Element } from 'react-scroll';
-import { Grid, Row, Pager, Button, Pagination } from 'react-bootstrap';
+import { Grid, Row, Pager, Button, Pagination, Container } from 'react-bootstrap';
 import PortfolioItem from '../PortfolioItem/PortfolioItem';
 import { BrowserRouter as Router, Link, Route} from 'react-router-dom';
 import ProjectPage1 from '../ProjectPage1/ProjectPage1';
@@ -21,7 +21,7 @@ export class PortfolioItems extends Component {
         <Element name="PortfolioItems" className="element">
           <div className="flex-container">
             <div>
-              <Grid>
+              <Container>
                 <Row>    
                   <div>
                     <PortfolioItem src={image} title="Project 1" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."/>
@@ -32,7 +32,7 @@ export class PortfolioItems extends Component {
                     <PortfolioItem src={image2} title="project 6" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."/>  
                   </div>
                 </Row>
-              </Grid>
+              </Container>
             </div>
           </div>
         </Element>

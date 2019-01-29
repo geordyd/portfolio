@@ -1,5 +1,7 @@
 ﻿.navbar{
-    opacity: .3;
+    background-color: transparent;
+    background: rgba(0, 0, 0, 0.3);
+    border-color: transparent;
 }
 
 body {
@@ -8,6 +10,16 @@ body {
 }
 
 .navitem{
-    opacity: 1;
+    
     color: black;
 }
+
+
+.navbar-inverse .navbar-brand{
+    color: rgb(200, 200, 200);
+}
+.navbar-inverse .navbar-nav > li > a{
+    color: rgb(200, 200, 200);
+}
+
+

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Col, Grid, Row } from 'react-bootstrap';
+import { Col, Row, Container } from 'react-bootstrap';
 
 import { NavBar } from './NavBar/NavBar';
 import { LandingPage } from './LandingPage/LandingPage';
@@ -13,10 +13,10 @@ export class Layout extends Component {
   render() {
     return (
       <div className="background">
-        <Grid fluid>
+        <Container fluid>
           <Row> 
-
-            <NavBar />
+            
+            {/* <NavBar /> */}
             
             <LandingPage />
             
@@ -28,7 +28,7 @@ export class Layout extends Component {
               {this.props.children}
             </Col>
           </Row>
-        </Grid>
+        </Container>
       </div>
     );
   }
