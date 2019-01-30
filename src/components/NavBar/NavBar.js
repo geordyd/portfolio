@@ -36,7 +36,7 @@ export class NavBar extends Component {
 
   render() {
     return (
-      <Navbar bg="light" expand="lg" className="fixed-top">
+      <Navbar expand="lg" className="fixed-top">
         <Navbar.Brand href="#home"><a href="#" className="LandingPage" to="ScrollLandingPage" onClick={() => this.scrollToLandingPage()} >Home</a></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
