@@ -13,16 +13,28 @@ export class Layout extends Component {
   render() {
     return (
       <div className="background">
+      <NavBar />
+
+      <LandingPage />
+
+      <About />    
+
+      <PortfolioItems />
+      
         <Container>
           <Row> 
+           
             
-            <NavBar />
             
-            <LandingPage />
+       
             
-            <About />         
 
-            <PortfolioItems />
+            
+            
+            
+                 
+            
+            
 
             <Col sm={9}>
               {this.props.children}

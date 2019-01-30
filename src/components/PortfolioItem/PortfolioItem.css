@@ -9,11 +9,15 @@
 }
 
 
-.thumbnail img{
+.card-img-top{
   height: 200px;
   object-fit: contain;
 }
-  
+
+.card{
+  margin-bottom: 50px;
+}
+
 .thumbnail{
   background-color: #5c5f66;
   border-color: #5c5f66;
@@ -23,5 +27,5 @@
 }
 
 h4,p{
-  color: white;
+  color: black;
 }

@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import './LandingPage.css';
+
 import { Element } from 'react-scroll';
 import { Image, Col, /*Row*/ } from 'react-bootstrap';
+import './LandingPage.css';
 
 export class LandingPage extends Component {
   displayName = LandingPage.name
