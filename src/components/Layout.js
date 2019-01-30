@@ -13,7 +13,7 @@ export class Layout extends Component {
   render() {
     return (
       <div className="background">
-        <Container fluid>
+        <Container>
           <Row> 
             
             <NavBar />
