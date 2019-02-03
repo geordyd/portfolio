@@ -14,7 +14,7 @@ export class About extends Component {
           <Timeline lineColor={'#ddd'}>
             <TimelineItem
               key="001"
-              dateText="2018 – Present"
+              dateText="2017 – Present"
               style={{ color: '#5c5f66' }}
             >
               <h3>Studying Software Engeneering</h3>
