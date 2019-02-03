@@ -2,8 +2,12 @@ import React, { Component } from 'react';
 import './PortfolioItem.css';
 import { Element } from 'react-scroll';
 import { Button, Col, Card, Thumbnail, Row} from 'react-bootstrap';
+import ReactPlayer from 'react-player';
+import trailer from'./images/Trailer.wmv';
+import { Player } from 'video-react';
+// import css
 
-
+{/* <link rel="stylesheet" href="/css/video-react.css" /> */}
 
 export default class PortfolioItem extends Component {
   displayName = PortfolioItem.name
@@ -13,7 +17,14 @@ export default class PortfolioItem extends Component {
        
           <Col lg={4} sm={6} portfolio-item>
             <Card className="responsive">
-              <Card.Img variant="top" src={this.props.src}/>
+            {/* <Card.Img variant="top" src={this.props.src} /> */}
+
+          <Player
+            playsInline
+            poster="/assets/poster.png"
+            src={trailer}
+          />
+              
               <Card.Body>
                 <Card.Title>{this.props.title}</Card.Title>
                 <Card.Text>

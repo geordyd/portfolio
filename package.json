@@ -9,9 +9,12 @@
     "react": "^16.7.0",
     "react-bootstrap": "^1.0.0-beta.5",
     "react-dom": "^16.7.0",
+    "react-player": "^1.9.3",
     "react-router-dom": "^4.4.0-beta.6",
     "react-scroll": "^1.7.10",
-    "vertical-timeline-component-for-react": "^1.0.6"
+    "redux": "^4.0.1",
+    "vertical-timeline-component-for-react": "^1.0.6",
+    "video-react": "^0.13.2"
   },
   "scripts": {
     "start": "react-scripts start",

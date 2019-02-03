@@ -9,6 +9,7 @@ import ProjectPage2 from '../ProjectPage1/ProjectPage2';
 //image import
 import image from'./images/Naamloos.png';
 import image2 from'./images/img2.png';
+import webshop from'./images/webshop.png';
 
 
 export class PortfolioItems extends Component {
@@ -25,12 +26,7 @@ export class PortfolioItems extends Component {
                    
                   <div className="item-container">
                     <Row>
-                      <PortfolioItem src={image} title="Project 1" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae." link="http://www.google.com"/>
-                      <PortfolioItem src={image2} title="Project 2" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."/>
-                      <PortfolioItem src={image} title="Project 3" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."/>                  
-                      <PortfolioItem src={image2} title="Project 4" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."/>
-                      <PortfolioItem src={image} title="project 5" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."/>
-                      <PortfolioItem src={image2} title="project 6" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."/>  
+                      <PortfolioItem src={webshop} title="Project Webshop" description="For this project we had to make a webshop that sells boats and boat parts." link="https://github.com/HalimSD/webStore1"/>
                     </Row>
                   </div>
                 
