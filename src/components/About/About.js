@@ -18,10 +18,33 @@ export class About extends Component {
               style={{ color: '#5c5f66' }}
             >
               <h3>Studying Software Engeneering</h3>
-              <p>
+              <p className="timelineP">
                 I started studying at the Hogeschool in Rotterdam for a bachelor degree in Software Engeneering.
               </p>
             </TimelineItem>
+            
+            <TimelineItem
+              key="002"
+              dateText="2016 – 2017"
+              style={{ color: '#5c5f66' }}
+            >
+              <h3>Koolhaas Concepts</h3>
+              <p className="timelineP">
+                I worked as a warehouse worker at Koolhaas Concepts.
+              </p>
+            </TimelineItem>
+
+            <TimelineItem
+              key="003"
+              dateText="2013 – 2015"
+              style={{ color: '#5c5f66' }}
+            >
+              <h3>DAKA Sport</h3>
+              <p>
+                I worked as a salesman at DAKA Sports.
+              </p>
+            </TimelineItem>
+
           </Timeline>
           </div>
         </Element>

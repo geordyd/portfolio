@@ -3,7 +3,7 @@ import './PortfolioItem.css';
 import { Element } from 'react-scroll';
 import { Button, Col, Card, Thumbnail, Row} from 'react-bootstrap';
 import ReactPlayer from 'react-player';
-import trailer from'./images/Trailer.wmv';
+import trailer from'./images/Trailer.mp4';
 import { Player } from 'video-react';
 // import css
 
@@ -24,7 +24,7 @@ export default class PortfolioItem extends Component {
             poster="/assets/poster.png"
             src={trailer}
           />
-              
+                     
               <Card.Body>
                 <Card.Title>{this.props.title}</Card.Title>
                 <Card.Text>

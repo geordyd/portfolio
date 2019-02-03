@@ -26,8 +26,13 @@ h3{
 
 p{
   color: rgb(180, 180, 180)!important;
+
 }
 
 .timeline-item-dateinner{
   background: #5c5f66!important;
+}
+
+.timelineP{
+  margin-bottom: 300px;
 }
