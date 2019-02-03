@@ -17,7 +17,7 @@
 
   .intro-name {
     font-family: Reem Kufi,sans-serif;
-    font-size: 6rem;
+    font-size: 5rem;
     font-weight: 700;
     line-height: 6rem;
     padding-bottom: 1rem;
@@ -27,10 +27,33 @@
 }
 
 .tagline {
-  font-size: 3rem;
-  margin: 3rem 0;
+  font-size: 2rem;
+  margin: 1.5rem 0;
   font-weight: 300;
   color: white;
+
   /* -webkit-text-stroke: 1px black; */
 }
 
+#linkedin{
+  
+  width: 50px;
+  fill: red!important;
+}
+
+.hvr-float {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+}
+.hvr-float:hover,
+.hvr-float:focus,
+.hvr-float:active {
+  transform: translateY(-8px);
+}

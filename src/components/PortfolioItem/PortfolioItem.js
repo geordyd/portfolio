@@ -19,7 +19,7 @@ export default class PortfolioItem extends Component {
                 <Card.Text>
                   {this.props.description}
                 </Card.Text>
-                <Button variant="primary">View Project</Button>
+                <Button variant="secondary" href={this.props.link} target="_blank">View Project</Button>
               </Card.Body>
             </Card>
           </Col>

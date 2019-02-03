@@ -17,15 +17,15 @@ export class PortfolioItems extends Component {
   render() {
 
     return (     
-      <div>
+    
         <Element name="PortfolioItems" className="element">
           <div className="flex-container">
             <div>
               <Container>
                    
-                  <div>
+                  <div className="item-container">
                     <Row>
-                      <PortfolioItem src={image} title="Project 1" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."/>
+                      <PortfolioItem src={image} title="Project 1" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae." link="http://www.google.com"/>
                       <PortfolioItem src={image2} title="Project 2" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."/>
                       <PortfolioItem src={image} title="Project 3" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."/>                  
                       <PortfolioItem src={image2} title="Project 4" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."/>
@@ -38,7 +38,7 @@ export class PortfolioItems extends Component {
             </div>
           </div>
         </Element>
-      </div>
+      
     );
   }
 }

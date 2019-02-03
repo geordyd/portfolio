@@ -3,15 +3,20 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    /* margin-top: 20%; */
   }
   
-  .flex-container > div{
-    flex: auto;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: center;
-  }
+.flex-container > div{
+  flex: auto;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.item-container{
+  margin-top: 5%;
+}

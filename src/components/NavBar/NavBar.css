@@ -5,7 +5,7 @@
 }
 
 body {
-    margin: 0;
+    margin-top: 0;
     padding: 0;
 }
 
@@ -22,4 +22,7 @@ body {
     color: rgb(200, 200, 200);
 }
 
+.ml-auto{
+    margin-right: 20%
+}
 

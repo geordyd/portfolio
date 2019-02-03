@@ -5,11 +5,13 @@
   "homepage": "http://geordyd.github.io/portfolio",
   "dependencies": {
     "babel-preset-react": "^6.24.1",
+    "hover.css": "^2.3.2",
     "react": "^16.7.0",
     "react-bootstrap": "^1.0.0-beta.5",
     "react-dom": "^16.7.0",
     "react-router-dom": "^4.4.0-beta.6",
-    "react-scroll": "^1.7.10"
+    "react-scroll": "^1.7.10",
+    "vertical-timeline-component-for-react": "^1.0.6"
   },
   "scripts": {
     "start": "react-scripts start",

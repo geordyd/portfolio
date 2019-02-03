@@ -36,37 +36,16 @@ export class NavBar extends Component {
 
   render() {
     return (
-      <Navbar expand="lg" className="fixed-top">
-        <Navbar.Brand href="#home"><a href="#" className="LandingPage" to="ScrollLandingPage" onClick={() => this.scrollToLandingPage()} >Home</a></Navbar.Brand>
+      <Navbar expand="lg" className="fixed-top" variant="dark">
+        <Navbar.Brand href="#home" className="LandingPage" to="ScrollLandingPage" onClick={() => this.scrollToLandingPage()}>Home</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
+          <Nav className="ml-auto">
             <Nav.Link eventKey={1} href="#" className="About" to="ScrollAbout" onClick={() => this.scrollToAbout()}>About</Nav.Link>
             <Nav.Link eventKey={2} href="#" className="PortfolioItems" to="ScrollPortfolio" onClick={() => this.scrollToPortfolio()}>Portfolio</Nav.Link>
           </Nav>
-         
         </Navbar.Collapse>
       </Navbar>
-      // <Navbar inverse collapseOnSelect className="navbar-fixed-top">
-      //   <Navbar.Header>
-      //     <Navbar.Brand >
-      //       <a href="#" className="LandingPage" to="ScrollLandingPage" onClick={() => this.scrollToLandingPage()} >Home</a>
-      //     </Navbar.Brand>
-      //     <Navbar.Toggle />
-      //   </Navbar.Header>
-      //   <Navbar.Collapse>
- 
-          
-      //     <Nav pullRight>
-      //       <NavItem eventKey={1} href="#" className="About" to="ScrollAbout" onClick={() => this.scrollToAbout()}>
-      //         About
-      //       </NavItem>
-      //       <NavItem eventKey={2} href="#" className="PortfolioItems" to="ScrollPortfolio" onClick={() => this.scrollToPortfolio()}>
-      //         Portfolio
-      //       </NavItem>
-      //     </Nav>
-      //   </Navbar.Collapse>
-      // </Navbar>
     );
   }
 }
