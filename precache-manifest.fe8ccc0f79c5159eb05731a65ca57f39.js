@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/Naamloos.dc20ac17.png"
   },
   {
-    "revision": "629420ee277f9f8fdb58",
+    "revision": "7e6ccbb1a5ef627f999f",
     "url": "/portfolio/static/css/main.768d901f.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/js/runtime~main.ee2a1003.js"
   },
   {
-    "revision": "629420ee277f9f8fdb58",
-    "url": "/portfolio/static/js/main.629420ee.chunk.js"
+    "revision": "7e6ccbb1a5ef627f999f",
+    "url": "/portfolio/static/js/main.7e6ccbb1.chunk.js"
   },
   {
     "revision": "a56089c8fa572b7a1407026a03ddfbc5",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/css/1.dc7848b3.chunk.css"
   },
   {
-    "revision": "d873713d6f5f3627e15054784482104c",
+    "revision": "360c861e2213cb159b84a8f7c1fa6e78",
     "url": "/portfolio/index.html"
   }
 ];
