@@ -15,7 +15,7 @@ export default class PortfolioItem extends Component {
   render() {
     return (
        
-          <Col lg={4} sm={6} portfolio-item>
+          <Col lg={4} sm={6} portfolio-item className="col-centered">
             <Card className="responsive">
             {/* <Card.Img variant="top" src={this.props.src} /> */}
 

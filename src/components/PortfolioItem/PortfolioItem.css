@@ -40,3 +40,7 @@ h4,p{
   background-color: #5c5f66;
 }
 
+.col-centered{
+  float: none;
+margin: 0 auto;
+}

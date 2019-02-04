@@ -23,19 +23,6 @@ export class Layout extends Component {
       
         <Container>
           <Row> 
-           
-            
-            
-       
-            
-
-            
-            
-            
-                 
-            
-            
-
             <Col sm={9}>
               {this.props.children}
             </Col>
