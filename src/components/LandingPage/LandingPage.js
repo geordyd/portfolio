@@ -23,7 +23,7 @@ export class LandingPage extends Component {
               <div class="tagline">Student Software Engineering</div>
 
               <Col>
-                <a href="https://www.linkedin.com/in/geordy-dekker-69a070154/" target="_blank">
+                <a href="https://www.linkedin.com/in/geordy-dekker-69a070154/" target="_blank" rel="noopener noreferrer">
                   <Image src={image} id="linkedin" className="hvr-float"></Image>
                 </a>
               </Col>

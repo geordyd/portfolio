@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 //import { Route } from 'react-router';
 
 import { Layout } from './components/Layout';
-import image2 from'./images/img2.png';
 import './index.css';
 import "../node_modules/video-react/dist/video-react.css"; // import css
+
 export default class App extends Component {
   displayName = App.name
 

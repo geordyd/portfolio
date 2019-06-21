@@ -1,5 +1,5 @@
 ﻿import React, { Component } from 'react';
-import { Nav, Navbar, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
+import { Nav, Navbar } from 'react-bootstrap';
 import './NavBar.css';
 import { scroller } from 'react-scroll';
 
