@@ -16,9 +16,9 @@ export class LandingPage extends Component {
         <Element name="LandingPage" className="element" >
           <div className="flex-container">
             <div>
-              <Col>
+              {/* <Col>
                 <Image src={profilePic} roundedCircle/>
-              </Col>
+              </Col> */}
               <div class="intro-name">Hello, I'm Geordy!</div>
               <div class="tagline">Student Software Engineering</div>
 
