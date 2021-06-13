@@ -12,6 +12,16 @@ export class About extends Component {
         <Element name="About" className="element" >
           <div className="flex-container">
           <Timeline lineColor={'#ddd'}>
+          <TimelineItem
+              key="001"
+              dateText="Sept. 2020 – Feb. 2021"
+              style={{ color: '#5c5f66' }}
+            >
+              <h3>Internship Erasmus University Rotterdam</h3>
+              <p className="timelineP">
+                I started my internship at the Erasmus University in Rotterdam at the IT Development department.
+              </p>
+            </TimelineItem>
             <TimelineItem
               key="001"
               dateText="2017 – Present"
