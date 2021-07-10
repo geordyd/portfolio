@@ -5,7 +5,7 @@ import { NavBar } from './NavBar/NavBar';
 import { LandingPage } from './LandingPage/LandingPage';
 import { About } from './About/About';
 import { PortfolioItems } from './PortfolioItems/PortfolioItems';
-
+import { Career } from './Career/Career'
 
 export class Layout extends Component {
   displayName = Layout.name
@@ -18,6 +18,8 @@ export class Layout extends Component {
       <LandingPage />
 
       <About />    
+
+      <Career />
 
       <PortfolioItems />
       

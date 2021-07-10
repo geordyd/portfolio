@@ -26,6 +26,14 @@ export class NavBar extends Component {
     })
   }
 
+  scrollToCareer() {
+    scroller.scrollTo('Career', {
+      duration: 800,
+      delay: 0,
+      smooth: 'easeInOutQuart'
+    })
+  }
+
   scrollToPortfolio() {
     scroller.scrollTo('PortfolioItems', {
       duration: 800,
@@ -42,6 +50,7 @@ export class NavBar extends Component {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
             <Nav.Link eventKey={1} href="#" className="About" to="ScrollAbout" onClick={() => this.scrollToAbout()}>About</Nav.Link>
+            <Nav.Link eventKey={1} href="#" className="Career" to="ScrollCareer" onClick={() => this.scrollToCareer()}>Career</Nav.Link>
             <Nav.Link eventKey={2} href="#" className="PortfolioItems" to="ScrollPortfolio" onClick={() => this.scrollToPortfolio()}>Portfolio</Nav.Link>
           </Nav>
         </Navbar.Collapse>
